@@ -51,7 +51,7 @@ cf_properties=$(
     --arg mysql_monitor_email "$MYSQL_MONITOR_EMAIL" \
     --arg tcp_router_static_ips "$TCP_ROUTER_STATIC_IPS" \
     --arg company_name "$COMPANY_NAME" \
-    --arg BLOBSTORE_INTERNAL_ACCESS_RULES "$BLOBSTORE_INTERNAL_ACCESS_RULES" \
+    --arg blobstore_internal_access_rules "$BLOBSTORE_INTERNAL_ACCESS_RULES" \
     --arg ssh_static_ips "$SSH_STATIC_IPS" \
     --arg mysql_static_ips "$MYSQL_STATIC_IPS" \
     --arg cert_pem "$SSL_CERT" \
