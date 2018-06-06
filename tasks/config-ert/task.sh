@@ -155,6 +155,9 @@ cf_properties=$(
       ".diego_brain.static_ips": {
         "value": $ssh_static_ips
       },
+      ".nfs_server.blobstore_internal_access_rules": {
+        "value": $blobstore_internal_access_rules
+      },
       ".mysql_proxy.static_ips": {
         "value": $mysql_static_ips
       }
